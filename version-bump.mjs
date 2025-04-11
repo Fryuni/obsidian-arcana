@@ -18,4 +18,3 @@ import { execSync } from 'child_process';
 
 execSync(`git add . && git commit -m "Bump version to ${targetVersion}"`);
 execSync(`git tag -a ${targetVersion} -m "${targetVersion}"`);
-
